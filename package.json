@@ -1,0 +1,28 @@
+{
+    "name": "chinese-python",
+    "displayName": "Chinese Python",
+    "description": "Syntax highlighting for Chinese Python keywords",
+    "version": "0.1.0",
+    "publisher": "yourname",
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "contributes": {
+      "languages": [
+        {
+          "id": "python",
+          "aliases": ["Chinese Python", "chinese-python"],
+          "extensions": [".py"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "python",
+          "scopeName": "source.python.chinese",
+          "path": "./syntaxes/chinese-python.tmLanguage.json"
+        }
+      ]
+    }
+  }
+  
